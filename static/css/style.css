@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(227, 227, 227);
+    color:black;
+}
+
+.titletext {
+    opacity: 1;
+    color:rgb(0, 0, 0);
+}
+
+select {
+    border: 2px solid #000076;
+    border-radius: 1px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #00006a;
+}
+
+.well {
+    border: 2px solid rgb(0, 0, 112);
+    border-radius: 4px;
+    background-color:'white';
+}
+
+.panel {
+    border: 2px solid rgb(0, 0, 82);
+    border-radius: 4px;
+}
+
+.panel-heading {
+    background-color:rgb(255, 255, 255);
+}
+
+.chart {
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 112);
+}
+
+.gauge {
+    align-content: center;
+}
+
+.jumbotron {
+    background-image: url("../image/headerphoto.jpeg");
+    opacity: 0.85;
+    background-size: 100% 100%;
+    text-align: center;
+}
